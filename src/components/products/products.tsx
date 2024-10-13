@@ -21,7 +21,7 @@ type ProductInfo = {
 export const ProductSchema = z.object({
   name: z.string().min(5).max(20),
   description: z.string().min(10).max(200),
-  price: z.string().min(5).max(20),
+  price: z.string().max(5),
   category: z.string().min(5).max(20),
 });
 
@@ -83,7 +83,7 @@ const Products = () => {
   };
 
   return (
-    <div className="relative overflow-x-auto shadow-md sm:rounded-lg p-5">
+    <div className="relative overflow-x-auto shadow-md sm:rounded-lg p-5" style={{height:"700px"}}>
       <div className="flex justify-end mb-2">
         <button
           onClick={() => {

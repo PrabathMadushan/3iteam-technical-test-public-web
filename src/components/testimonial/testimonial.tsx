@@ -11,8 +11,8 @@ const Testimonial = ()=>{
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Speechless with how easy this was to integrate</h3>
-                    <p className="my-4">&quot;I recently got my hands on Flowbite Pro, and holy crap, I&apos;m speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
-                    <p className="my-4">Flowbite has code in one place and I&apos;m not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
+                    <p className="my-4">&quot;I recently got my hands on 3iTeam Pro, and holy crap, I&apos;m speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
+                    <p className="my-4">3iTeam has code in one place and I&apos;m not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
                     <p className="my-4">If you care for your time, I hands down would go with this.&quot;</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
@@ -26,7 +26,7 @@ const Testimonial = ()=>{
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Solid foundation for any project</h3>
-                    <p className="my-4">&quot;FlowBite provides a robust set of design tokens and components based on the popular Tailwind CSS framework. From the most used UI components like forms and navigation bars to the whole app screens designed both for desktop and mobile, this UI kit provides a solid foundation for any project.</p>
+                    <p className="my-4">&quot;3iTeam provides a robust set of design tokens and components based on the popular Tailwind CSS framework. From the most used UI components like forms and navigation bars to the whole app screens designed both for desktop and mobile, this UI kit provides a solid foundation for any project.</p>
                     <p className="my-4">Designing with Figma components that can be easily translated to the utility classNamees of Tailwind CSS is a huge timesaver!&quot;</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
@@ -40,7 +40,7 @@ const Testimonial = ()=>{
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Mindblowing workflow and variants</h3>
-                    <p className="my-4">&quot;As someone who mainly designs in the browser, I&apos;ve been a casual user of Figma, but as soon as I saw and started playing with FlowBite my mind was 🤯.</p>
+                    <p className="my-4">&quot;As someone who mainly designs in the browser, I&apos;ve been a casual user of Figma, but as soon as I saw and started playing with 3iTeam my mind was 🤯.</p>
                     <p className="my-4">Everything is so well structured and simple to use (I&apos;ve learnt so much about Figma by just using the toolkit).</p>
                     <p className="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application.&quot;</p>
                 </blockquote>
@@ -67,9 +67,7 @@ const Testimonial = ()=>{
                 </figcaption>    
             </figure>
         </div>
-        <div className="text-center">
-            <a href="#" className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Show more...</a> 
-        </div>
+      
         </div>
   </section>
 }
